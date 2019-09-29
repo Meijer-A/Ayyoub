@@ -63,7 +63,7 @@ canvas{
 
 main {
   position: fixed;
-  top: 50vh;
+  top: calc(50vh - 36px);
   margin: auto;
   width: 100%;
   text-align: center;
