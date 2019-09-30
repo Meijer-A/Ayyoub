@@ -67,15 +67,27 @@ main {
   margin: auto;
   width: 100%;
   text-align: center;
-  pointer-events: none;
 }
 
 h1 {
   font-size: 60px;
   color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.contact {
+  margin: auto;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact a {
+  height: 50px;
+  width: 50px;
 }
 
 .contact a img {
   fill: white;
   height: 50px;
+  width: 50px;
 }
