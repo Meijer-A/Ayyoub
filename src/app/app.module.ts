@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 //material
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
@@ -50,6 +51,7 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     ),
     MatToolbarModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

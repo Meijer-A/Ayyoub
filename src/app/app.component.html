@@ -1,14 +1,17 @@
-
 <nav>
-  <mat-toolbar-row>
-    <span>Second Line</span>
-    <span class="example-spacer"></span>
-    <a routerLink="/" routerLinkActive="active">Home</a>
-    <a routerLink="/over-mij" routerLinkActive="active">Over mij</a>
-    <a routerLink="/projecten" routerLinkActive="active">Projecten</a>
-    <a routerLink="/contact" routerLinkActive="active">Contact</a>
-  </mat-toolbar-row>
-
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Ayyoub Meijer</span>
+      <span class="example-spacer"></span>
+      <div class="links-nav">
+        <a routerLink="/" routerLinkActive="active">Home</a>
+        <a routerLink="/over-mij" routerLinkActive="active">Over mij</a>
+        <a routerLink="/projecten" routerLinkActive="active">Projecten</a>
+        <a routerLink="/contact" routerLinkActive="active">Contact</a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
 </nav>
-<h1>Ayyoub Meijer</h1>
-<router-outlet></router-outlet>
+<main>
+  <router-outlet></router-outlet>
+</main>

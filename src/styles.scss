@@ -58,3 +58,25 @@ $ayyoub-theme: mat-light-theme($ayyoub-primary, $ayyoub-accent, $ayyoub-warn);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 180%;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 35px !important;
+}
+
+// tile column layout
+.mat-grid-tile .mat-figure {
+    flex-direction: column !important;
+}

@@ -1,0 +1,7 @@
+mat-grid-tile {
+    height: calc(100vh - 700px);
+}
+
+.mat-grid-tile .mat-figure {
+    flex-direction: column !important;
+}

@@ -1,7 +1,21 @@
+//colors
+$white: #ffffff;
+
 .example-icon {
     padding: 0 14px;
 }
 
 .example-spacer {
     flex: 1 1 auto;
+}
+
+
+// link
+.links-nav {
+    a {
+        color: $white;
+        padding-right: 15px;
+        text-decoration: none;
+        font-size: 14px;
+    }
 }
